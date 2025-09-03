@@ -382,6 +382,7 @@ nav{
   border-radius:15px;
   background:#fff;
   padding:20px;
+  border: 1px solid grey;
 }
 
 #sec_7_card2{
@@ -392,6 +393,8 @@ nav{
   background:#fff;
   padding:20px;
   text-align:center;
+  border: 1px solid grey;
+  height: fit-content;
 }
 
 .sec_7_card1_content,
@@ -904,7 +907,7 @@ footer{
   .stat-number{ font-size:24px; }
   .stat-small{ font-size:12px; }
 
-  #sec_4{ flex-direction:column; padding:20px 25px; }
+  #sec_4{  padding:20px 25px; }
   .sec4_content1 p{ font-size:24px; text-align:left; }
   .sec4_content{ max-width:100%; font-size:16px; margin-bottom:20px; }
 
@@ -985,5 +988,118 @@ footer{
   .footer-column{ width:100%; }
 }
 
+@media  (max-width: 414px){
+
+  .footer{
+    background-color: #9D0B0B;
+    width: 414px;
+    padding: 10px;
+    height: auto;
+    font-size: 10px;
+  }
+
+  .cart-flex{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #sec_4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .info-tabs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+
+  .enrollment-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .highlight-column{
+    font-size: 14px;
+    
+  }
+
+  .highlight-desc{
+    font-size: 12px;
+  }
+
+  #sec3_content{
+    display: none;
+    margin: auto;
+  }
+
+  .footer-container{
+    gap: 5px;
+  }
+
+  .footer-column ul li {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  #sec_8{
+    padding: 0%;
+  }
+
+  .sec11{
+    padding: 10px;;
+  }
+
+  #sec_7_card1,#sec_7_card2{
+    border: 1px solid grey;
+
+}
+
+#nav_ul{
+  width: 414px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  
+  align-items: center;
+
+}
+
+#search-profile-cart{
+  
+  font-size: 5px;
+  gap: 5px;
+}
+
+nav{
+  padding: 0%;
+}
+
+.logo-link{
+  font-size: 10px;;
+}
+
+.nav-elements a {
+  font-size: 5px;
+  font-weight: bold;
+}
+
+#search-profile-cart img{
+  width: 10px;
+  height: 10px;
+}
+
+#search-profile-cart input[type="text"]{
+  width: 100px;
+  height: 10px;
+  font-size: 5px;
+}
+}
 
 
